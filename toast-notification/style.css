@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.toast {
+    color: white;
+    background: rebeccapurple;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+button {
+    background-color: mediumslateblue;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+        filter: opacity(0.6);
+    }
+}
